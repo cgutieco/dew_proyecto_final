@@ -1,0 +1,108 @@
+.carrusel-container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.card {
+  border: 2px solid #0078ff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  background: white;
+ 
+}
+.slick-slide > div {
+  margin: 0 10px;   
+}
+
+
+
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card-precio {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-cantidad {
+  width: 100%;
+  margin: 10px auto;   
+  display: flex;
+  justify-content: center; 
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.card-cantidad div {
+  font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+  font-size: 16px;  
+}
+
+
+
+.cantidad-controles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cantidad-controles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: black;
+  height: 25px; 
+  font-family: sans-serif;
+  color: white;
+}
+
+.contador-cantidad {
+  background-color: #007bff; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+  font-size: 24px;
+  font-weight: bold;
+  height: 100%;
+  width: 1%;
+}
+
+.boton-cantidad {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.btn-agregar {
+  margin-top: 10px;
+  background: #0078ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}

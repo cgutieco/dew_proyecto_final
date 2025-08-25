@@ -1,0 +1,131 @@
+.header {
+    background-color: #00CCFF;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.header > h1 {
+    margin-left: 30px;
+}
+.header > h1 a {
+    font-family: 'Showcard Gothic';
+    color: #DFF5FA;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.nav{
+     margin-left: 40px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    padding: 0px 40px;
+    font-size: 25px;
+}
+
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    color: white;
+    font-size: 20px;
+    display: inline-block; 
+    transition: transform 0.3s, color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #ff0000;
+    transform: scale(1.2); 
+}
+
+.carrito-contenedor {
+  margin-left: auto;
+  margin-right: 30px;
+  display: flex;
+  align-items: center; 
+  gap: 8px;            
+}
+
+.contador {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 4px 8px;
+  border-radius: 50%; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.carrito {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.borrar{
+  font-size: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+
+
+.carrito-contenedor {
+  position: relative;
+}
+
+.carrito-dropdown {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.carrito-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+
+}
+.carrito-nombre {
+  flex: 1; 
+  margin: 0 25px; 
+  overflow: hidden; 
+}
+
+.carrito-precio {
+  margin-right: 10px; 
+}
+
+
+.carrito-total {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: right;
+  margin-right: 30%;
+ 
+}
+
+.vaciar {
+  background-color: #2dcaff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 18px;
+}

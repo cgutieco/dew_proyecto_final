@@ -1,0 +1,110 @@
+.contenedor-carrusel {
+  width: 80%;
+  margin: 40px auto; 
+}
+
+.carrusel-img {
+  width: 100%;
+  height: 400px;      
+  object-fit: cover;  
+  border-radius: 12px;
+  display: block;      
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: rgb(0, 0, 0); 
+}
+
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  background: rgb(2, 65, 129) !important;  
+  border-radius: 50%;
+  z-index: 2;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: white !important; 
+  font-size: 20px;
+  opacity: 1 !important;   
+}
+
+.slick-prev:hover,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-next:focus {
+  background: black !
+}
+
+
+.contenedor-2 {
+  width: 70%;
+  margin: 50px auto;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px; 
+  overflow: hidden;  
+}
+
+
+.caja1 {
+  width: 50%;
+  height: 100%;
+  background-color: #aff6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.caja1 p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #000;
+  font-weight: 500;
+  font-family: "Arial Rounded MT Bold";
+
+}
+
+.caja2 {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, #1a0000, #ff0000); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.caja2 h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.caja2 .marcas {
+  display: flex;
+  gap: 50px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.caja2 .amd {
+  color: #ff0000; 
+  font-family: "Gill Sans Ultra Bold";
+}
+
+.caja2 .intel {
+  color: #0078ff; 
+  font-family: "Gill Sans Ultra Bold";
+}
+

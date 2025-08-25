@@ -1,0 +1,38 @@
+.footer-container {
+  background-color: #00aaff; /* Azul claro similar al de la imagen */
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1200px; /* Ajusta según el ancho de tu diseño */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links, .footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+  font-weight: bold;
+    font-family: "Arial Black";
+}
+
+
+.footer-logo {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "Showcard Gothic";
+  color: #DFF5FA;
+}
