@@ -17,16 +17,16 @@ export class AuthService {
 
     login(email, password) {
         if (!email || !password) {
-            throw new AuthError("Email y contraseña son requeridos", "VALIDATION_ERROR");
+            throw new AuthError("Email y contraseña son requeridos");
         }
         const found = this.#users.find(u => u.email === email);
 
         if (!found) {
-            throw new AuthError("Usuario no encontrado", "USER_NOT_FOUND");
+            throw new AuthError("Usuario no encontrado");
         }
         const usuario = new Usuario(found);
         if (!usuario.verifyPassword(password)) {
-            throw new AuthError("Credenciales incorrectas", "INVALID_CREDENTIALS");
+            throw new AuthError("Credenciales incorrectas");
         }
         return usuario;
     }
