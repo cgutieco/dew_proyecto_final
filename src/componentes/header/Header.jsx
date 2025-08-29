@@ -1,6 +1,6 @@
 import './Header.css'
 import { Link } from 'react-router-dom'
-import { useCarrito } from '../header/CarritoContext.jsx';
+import { useCarrito } from './CarritoContext.jsx';
 import { useState } from 'react';
 
 
@@ -15,7 +15,7 @@ const Header = () => {
         <h1><Link to="/">AI</Link></h1>
         <nav className='nav'>
             <ul className='ul'>
-                <li className='li'><Link to="/">INICIO</Link></li>
+                <li className='li'><Link to="/home">INICIO</Link></li>
                 <li className='li'><Link to="/productos">PRODUCTOS</Link></li>
                 <li className='li'><Link to="/contacto">CONTACTO</Link></li>
             </ul>
