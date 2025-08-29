@@ -10,7 +10,7 @@ const CarruselProductos = () => {
 
     const { agregarAlCarrito } = useCarrito();
 
-    const handleAgregar = (producto) => {
+    const agregar = (producto) => {
         agregarAlCarrito(producto);
     };
 
@@ -72,7 +72,7 @@ const CarruselProductos = () => {
                             </div>
                         </div>
 
-                        <button className="btn-agregar" onClick={() => handleAgregar(producto)}>
+                        <button className="btn-agregar" onClick={() => agregar(producto)}>
                             AGREGAR
                         </button>
                     </div>

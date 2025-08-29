@@ -6,7 +6,7 @@ const Productos = () => {
 
   const { agregarAlCarrito } = useCarrito();
 
-  const handleAgregar = (producto) => {
+  const agregar = (producto) => {
     agregarAlCarrito(producto);  
   };
 
@@ -65,7 +65,7 @@ const Productos = () => {
 
           </div>
 
-          <button className="btn-agregar" onClick={() => handleAgregar(producto)}>AGREGAR</button>
+          <button className="btn-agregar" onClick={() => agregar(producto)}>AGREGAR</button>
         </div>
       ))}
     </div>
